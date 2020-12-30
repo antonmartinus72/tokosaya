@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 30, 2020 at 09:33 PM
+-- Generation Time: Dec 30, 2020 at 09:58 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -43,8 +43,10 @@ CREATE TABLE `tbjual` (
 INSERT INTO `tbjual` (`id`, `kode_barang`, `nama_barang`, `jumlah`, `harga`, `gambar`) VALUES
 (2, 'AQUA00234', 'Aqua Mineral 600ml', 20, 5000, 'aqua600ml.jpg'),
 (4, 'PG002', 'Pure Green Beras Organik 1kg - Putih', 10, 25000, 'beraspg1kgputih.jpg'),
-(42, 'FF100', 'Frisian Flag kental manis 370g', 5, 12000, '5fecdb8f13604.jpg'),
-(71, 'BM001', 'Bimoli', 20, 23000, '5fecdbb8cf3cb.jpg');
+(42, 'FF100', 'Frisian Flag kental manis 370g', 5, 12000, '5fece93453156.jpg'),
+(71, 'BM0012L', 'Bimoli 2lt', 20, 23000, '5fece95e24dd4.jpg'),
+(81, 'FF101', 'Frisian Flag Gold kental manis 370g', 20, 18000, '5fece98a8f6fe.jpg'),
+(82, 'AQUA00330', 'Aqua Mineral 330ml', 300, 3000, '5fece9d6f1f1e.jpg');
 
 -- --------------------------------------------------------
 
@@ -153,7 +155,7 @@ ALTER TABLE `tbpengguna`
 -- AUTO_INCREMENT for table `tbjual`
 --
 ALTER TABLE `tbjual`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=83;
 
 --
 -- AUTO_INCREMENT for table `tborder`
